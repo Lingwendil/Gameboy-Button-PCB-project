@@ -29,7 +29,7 @@ Refer to the instructions given by your chosen firmware for detailed software in
 
 -The DMG2040-Pro will work with the standard GP2040-CE firmware file without additional configuration for the buttons, but will require configuration via the Web Cocnfigurator utility to assign any additional function to the GPIO pins, such as I2C, USB passthrough, or additional buttons. The shoulder and home buttons are by default assigned as TSW3= `B3`, TSW4= as `B4` and TSW9= `A1` using GP2040-CE nomenclature. Standard button assignment on the PCB is B1= `A`, B2= `B`, S1= `Select`, and s2= `Start`. Please keep in mind using input mode `Nintendo Switch` will swap the functions for B1/B2 and may require a custom profile to prevent this if your use case has you swapping between consoles/devices.
 
--The DMG2040-Lite will work with the Slimbox-BT `slimbox-bt-xiao_nrf52840.uf2` firmware file without additional configuration for the buttons. The shoulder and home buttons are by default assigned as TSW3- `West`, TSW4 as `North` and TSW9 ``Home using Jfedor's slimbox-bt nomenclature.
+-The DMG2040-Lite when using the Seeed Xiao nRF52840 Microcontroller will work with the Slimbox-BT `slimbox-bt-xiao_nrf52840.uf2` firmware file without additional configuration for the buttons. The shoulder and home buttons are by default assigned as TSW3- `West`, TSW4 as `North` and TSW9 ``Home using Jfedor's slimbox-bt nomenclature. If you use the Seeed RP2040 Microcontroller with the Gp2040-CE firmware you will need to maually configure the GPIO pin assignments to line up with the chosen button configuration.
 
-##Hardware setup
--Coming soon!
+## Hardware setup
+Coming soon!
